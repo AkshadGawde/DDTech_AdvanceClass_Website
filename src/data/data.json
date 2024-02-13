@@ -1,23 +1,26 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "Advance Engineering Classes",
+    "paragraph": "Mastering the Future: Elevate Your Engineering Skills with Advanced Classes"
   },
+
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "At Advance Engineering Classes, we're dedicated to shaping the future of engineering excellence. Our comprehensive curriculum and expert faculty empower students to master cutting-edge technologies and innovative methodologies. Whether you're a seasoned professional or a budding engineer, our advanced classes offer a gateway to unlocking your full potential and staying ahead in today's dynamic industry landscape.",
+    
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Expert Guidance: Benefit from the expertise of our renowned faculty members who bring years of industry experience to the classroom.",
+      "Hands-On Learning: Engage in practical, hands-on projects that allow you to apply theoretical knowledge to real-world scenarios.",
+      "Personalized Attention: With small class sizes, you'll receive personalized attention and support from our dedicated instructors.",
+      "Cutting-Edge Curriculum: Stay ahead of the curve with our cutting-edge curriculum that is constantly updated to reflect the latest advancements in engineering."
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Career Preparation: Our programs are designed to prepare you for success in your future career, whether you're pursuing further education or entering the workforce.",
+      "Networking Opportunities: Connect with industry professionals and fellow students through networking events, workshops, and seminars.",
+      "Flexibility: We offer flexible scheduling options to accommodate busy lifestyles, allowing you to balance your education with other commitments.",
+      "Supportive Community: Join a supportive community of like-minded individuals who share your passion for engineering and are committed to helping each other succeed."
     ]
   },
+
   "Gallery": [
     {
       "title": "Project Title",
@@ -65,70 +68,63 @@
       "smallImage": "img/portfolio/09-small.jpg"
     }
   ],
+
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "I'st Year Engineering",
+      "text": "Engineering mechanics(EM),\n Engineering drawings/ graphic (ED) Basic of electronics and electrical engineering (BEE) Maths-1 Maths-2."
     },
     {
       "icon": "fa fa-cart-arrow-down",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Maths-3, Maths-4, Electrical network/ circuit theory/ network theory (EN/NT/CTN), Control system (CS), Digital logic design/ digital system design/ digital circuits design (DSD/ DLDA/DCD/LD), Electronics circuit design (EDC/ADC/ED), Signal and system (SS), Linear integrated circuit/ Integrated circuit (LIC/DLIC/IC)."
     },
     {
       "icon": "fa fa-cloud-download",
       "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Electromagnetics (EME) Digital signal processing/ discrete time signal processing (DSP/DTSP) Signal processing (SP) Very large scale integrated circuit (VLSI)"
     },
     {
       "icon": "fa fa-language",
       "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
-    },
-    {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "text": "Image processing (IP) Robotics CMOS technology"
     }
   ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "I highly recommend taking engineering classes with Siddharth sir. He provides excellent coaching and takes great care of his students. His knowledge and expertise in the field contribute to a positive and enriching learning experience.",
+      "name": "Vaibhav Tyagi"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Its been 8 years since I have learnt from Siddharth Sir, he is still in touch and guiding me through every academic and career aspect of life as a mentor.He is really good in important subjects like Maths, Mechanics, Engineering Drawing and BEEE.",
+      "name": "Ajay Wavhal"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "The is best class I haved joined ever because the teaching style of siddarth sir is way better and different from other teachers and the way he handles students is best treats every student as friend. They cleared my golden kt in one attempt only of 1st year",
+      "name": "Sui Leo"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Joined this class to improve my grades in Engineering, not only I got better result but cleared my doubts and enjoyed learning here.\nSiddharth. Sir is one of the amazing teacher I met in my life. Highly suggested for first year engineeing.",
+      "name": "Swati Mohite"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "The best engineering classes in Navi Mumbai. Trust me teachers for here will make all engineering semesters super easy. No chance of getting any KT. Without thinking twice join the classes.",
+      "name": "Simran Madaan"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "Faculty is very co-operative and amazing. Teaching style of Siddharth Sir is unique. Kudos to all!",
+      "name": "Pranay Borhade"
     }
   ],
+
   "Team": [
     {
       "img": "img/team/01.jpg",
@@ -151,6 +147,7 @@
       "job": "Project Manager"
     }
   ],
+
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
@@ -159,26 +156,29 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
+
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Experienced Faculty ",
+      "text": "Our faculty members bring a wealth of knowledge and expertise to the classroom, with years of industry experience and a dedication to fostering academic excellence. Prepare to learn from the best and receive invaluable insights that will shape your engineering journey."
     },
+  
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Small Batch Size",
+      "text": "Experience the advantage of personalized attention with our small batch sizes. With a focus on quality over quantity, each student receives individualized support and guidance, ensuring a conducive learning environment where questions are encouraged and no one gets left behind."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Personal Mentorship",
+      "text": "Unlock your full potential with our personalized mentorship program. Our dedicated mentors are committed to your success, offering tailored guidance, advice, and support every step of the way. Whether you're seeking career advice or academic assistance, our mentors are here to help you thrive."
     },
+
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Students Improvement",
+      "text": "Our comprehensive approach to education is centered around your growth and development as a student. Through innovative teaching methods, interactive learning experiences, and continuous feedback, we empower you to reach new heights of achievement and realize your academic goals."
     }
   ]
 }
