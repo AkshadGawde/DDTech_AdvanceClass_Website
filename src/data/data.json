@@ -127,18 +127,18 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "name": "Sushant Kule",
+      "job": "Core Faculty"
     },
     {
       "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
+      "name": "Siddharth Shivarkar",
+      "job": "Core Faculty"
     },
     {
       "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
+      "name": "Prashant Bhosale",
+      "job": "Visiting Faculty"
     }
   ],
 
