@@ -71,22 +71,22 @@
 
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "I",
       "name": "I'st Year Engineering",
       "text": "Engineering mechanics(EM),\n Engineering drawings/ graphic (ED) Basic of electronics and electrical engineering (BEE) Maths-1 Maths-2."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "II",
       "name": "Consectetur adipiscing",
       "text": "Maths-3, Maths-4, Electrical network/ circuit theory/ network theory (EN/NT/CTN), Control system (CS), Digital logic design/ digital system design/ digital circuits design (DSD/ DLDA/DCD/LD), Electronics circuit design (EDC/ADC/ED), Signal and system (SS), Linear integrated circuit/ Integrated circuit (LIC/DLIC/IC)."
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "III",
       "name": "Lorem ipsum dolor",
       "text": "Electromagnetics (EME) Digital signal processing/ discrete time signal processing (DSP/DTSP) Signal processing (SP) Very large scale integrated circuit (VLSI)"
     },
     {
-      "icon": "fa fa-language",
+      "icon": "IV",
       "name": "Consectetur adipiscing",
       "text": "Image processing (IP) Robotics CMOS technology"
     }
