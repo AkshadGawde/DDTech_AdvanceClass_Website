@@ -139,18 +139,13 @@
       "img": "img/team/03.jpg",
       "name": "Jane Doe",
       "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
     }
   ],
 
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Om Sai Datta Niwas, Plot No. A/32, 3rd Floor, A Wing Room No. 307, Sector-20, Opp. Nerul Rly Station (W) Beside SBI Bank Nerul Navi Mumbai-400706",
+    "phone": "+91 7208549842",
+    "email": "siddharthshivarkar@gmail.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
