@@ -15,16 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
 
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "YOUR_SERVICE_ID",
+        "YOUR_TEMPLATE_ID",
+        e.target,
+        "YOUR_PUBLIC_KEY"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -43,13 +49,14 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Get In Touch</h2>
-                <p>
-                  Press the button to open a whatsapp chat with us.
-                </p>
+                <p>Press the button to open a whatsapp chat with us.</p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
-                <a href="https://wa.me/917208549842" className="btn btn-custom btn-lg">
-                        Contact us!
+                <a
+                  href="https://wa.me/917208549842"
+                  className="btn btn-custom btn-lg"
+                >
+                  Contact Us !
                 </a>
               </form>
             </div>
@@ -108,11 +115,16 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>
-            &copy; 2024 Advance classes. Designed and Developed by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              DDTech
-            </a>
+          <p className="mt-8 text-xl text-center">
+            © 2024{" "}
+            <a
+              href="https://www.thedd.tech/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              TheDDtech
+            </a>{" "}
+            - All Rights Reserved
           </p>
         </div>
       </div>

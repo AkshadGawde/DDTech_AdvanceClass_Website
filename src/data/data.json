@@ -72,25 +72,26 @@
   "Services": [
     {
       "icon": "I",
-      "name": "I'st Year Engineering",
-      "text": "Engineering mechanics(EM),\n Engineering drawings/ graphic (ED) Basic of electronics and electrical engineering (BEE) Maths-1 Maths-2."
+      "name": "1'st Year Engineering",
+      "text": "Engineering mechanics(EM), Engineering drawings/ graphic (ED),Basic of electronics, electrical engineering (BEE) Maths-1 Maths-2."
     },
     {
       "icon": "II",
-      "name": "Consectetur adipiscing",
+      "name": "2'nd Year Engineering",
       "text": "Maths-3, Maths-4, Electrical network/ circuit theory/ network theory (EN/NT/CTN), Control system (CS), Digital logic design/ digital system design/ digital circuits design (DSD/ DLDA/DCD/LD), Electronics circuit design (EDC/ADC/ED), Signal and system (SS), Linear integrated circuit/ Integrated circuit (LIC/DLIC/IC)."
     },
     {
       "icon": "III",
-      "name": "Lorem ipsum dolor",
-      "text": "Electromagnetics (EME) Digital signal processing/ discrete time signal processing (DSP/DTSP) Signal processing (SP) Very large scale integrated circuit (VLSI)"
+      "name": "3'rd Year Engineering",
+      "text": "Electromagnetics (EME),Digital signal processing/ discrete time signal processing (DSP/DTSP),Signal processing (SP) ,Very large scale integrated circuit (VLSI)"
     },
     {
       "icon": "IV",
-      "name": "Consectetur adipiscing",
-      "text": "Image processing (IP) Robotics CMOS technology"
+      "name": "4'th Year Engineering",
+      "text": "Image processing (IP),Robotics, CMOS technology"
     }
   ],
+
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",

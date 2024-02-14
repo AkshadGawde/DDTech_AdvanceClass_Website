@@ -6,20 +6,20 @@ export const Services = (props) => {
       <div className="container">
         <div className="section-title">
           <h2>Courses we offer</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
-          </p>
+          <p>Discover Our Diverse Course Offerings</p>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-6">
-                  {" "}
                   <i className="fa fa-fonticons">{d.icon}</i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <p>{d.text}</p>
+                    <ul>
+                      {d.text.split(",").map((subject, index) => (
+                        <li key={index}>{subject.trim()}</li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
               ))
