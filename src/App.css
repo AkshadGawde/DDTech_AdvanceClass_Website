@@ -1,7 +1,6 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   #features {
-    padding: 20px;
-    width: 111%;
+    width: 136%;
   }
   #about,
   #services,
@@ -9,10 +8,10 @@
   #team,
   #contact,
   #footer {
-    width: 111%;
+    width: 136%;
   }
 
   #portfolio {
-    width: 110%;
+    width: 136%;
   }
 }

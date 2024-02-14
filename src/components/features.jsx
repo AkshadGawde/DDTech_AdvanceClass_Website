@@ -10,7 +10,7 @@ export const Features = (props) => {
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-md-3 col-xs-5">
+                <div key={`${d.title}-${i}`} className="col-md-3 col-xs-6">
                   {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
