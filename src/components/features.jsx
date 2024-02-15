@@ -11,10 +11,13 @@ export const Features = (props) => {
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-md-3 col-xs-6">
-                  {" "}
                   <i className={d.icon}></i>
                   <h3>{d.title}</h3>
-                  <p>{d.text}</p>
+                  <ul>
+                    {d.text.split(".").map((item, index) => (
+                      <li key={index}>{item.trim()}</li>
+                    ))}
+                  </ul>
                 </div>
               ))
             : "Loading..."}

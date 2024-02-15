@@ -9,13 +9,13 @@
     
     "Why": [
       "Expert Guidance: Benefit from the expertise of our renowned faculty members who bring years of industry experience to the classroom.",
-      "Hands-On Learning: Engage in practical, hands-on projects that allow you to apply theoretical knowledge to real-world scenarios.",
-      "Personalized Attention: With small class sizes, you'll receive personalized attention and support from our dedicated instructors.",
-      "Cutting-Edge Curriculum: Stay ahead of the curve with our cutting-edge curriculum that is constantly updated to reflect the latest advancements in engineering."
+      "Hands-On Learning: Apply theoretical knowledge to real-world situations through practical projects.",
+      "Personalized Attention: Benefit from small class sizes and dedicated instructors for individualized support.",
+      "Cutting-Edge Curriculum: Stay updated with our constantly evolving curriculum reflecting the latest engineering advancements."
     ],
     "Why2": [
-      "Career Preparation: Our programs are designed to prepare you for success in your future career, whether you're pursuing further education or entering the workforce.",
-      "Networking Opportunities: Connect with industry professionals and fellow students through networking events, workshops, and seminars.",
+      "Career Preparation: Our programs ensure readiness for future career paths, be it further education or entry into the workforce.",
+      "Networking Opportunities: Connect with professionals and peers through various events and workshops.",
       "Flexibility: We offer flexible scheduling options to accommodate busy lifestyles, allowing you to balance your education with other commitments.",
       "Supportive Community: Join a supportive community of like-minded individuals who share your passion for engineering and are committed to helping each other succeed."
     ]
@@ -69,7 +69,7 @@
     }
   ],
 
-  "Services": [
+  "Courses": [
     {
       "icon": "I",
       "name": "1'st Year Engineering",
@@ -99,27 +99,27 @@
       "name": "Vaibhav Tyagi"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "Its been 8 years since I have learnt from Siddharth Sir, he is still in touch and guiding me through every academic and career aspect of life as a mentor.He is really good in important subjects like Maths, Mechanics, Engineering Drawing and BEEE.",
       "name": "Ajay Wavhal"
     },
     {
-      "img": "img/testimonials/03.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "The is best class I haved joined ever because the teaching style of siddarth sir is way better and different from other teachers and the way he handles students is best treats every student as friend. They cleared my golden kt in one attempt only of 1st year",
       "name": "Sui Leo"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "Joined this class to improve my grades in Engineering, not only I got better result but cleared my doubts and enjoyed learning here.\nSiddharth. Sir is one of the amazing teacher I met in my life. Highly suggested for first year engineeing.",
       "name": "Swati Mohite"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "The best engineering classes in Navi Mumbai. Trust me teachers for here will make all engineering semesters super easy. No chance of getting any KT. Without thinking twice join the classes.",
       "name": "Simran Madaan"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/01.jpg",
       "text": "Faculty is very co-operative and amazing. Teaching style of Siddharth Sir is unique. Kudos to all!",
       "name": "Pranay Borhade"
     }
@@ -155,25 +155,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Experienced Faculty ",
-      "text": "Our faculty members bring a wealth of knowledge and expertise to the classroom, with years of industry experience and a dedication to fostering academic excellence. Prepare to learn from the best and receive invaluable insights that will shape your engineering journey."
+      "title": "Experienced Faculty",
+      "text": "Our faculty brings extensive industry knowledge and expertise to the classroom, ensuring academic excellence. Learn from the best and gain invaluable insights to shape your engineering journey."
     },
-  
     {
       "icon": "fa fa-bullhorn",
       "title": "Small Batch Size",
-      "text": "Experience the advantage of personalized attention with our small batch sizes. With a focus on quality over quantity, each student receives individualized support and guidance, ensuring a conducive learning environment where questions are encouraged and no one gets left behind."
+      "text": "Experience personalized attention with our small batch sizes. Each student receives individualized support, fostering a conducive learning environment where questions are encouraged and no one gets left behind."
     },
     {
       "icon": "fa fa-group",
       "title": "Personal Mentorship",
-      "text": "Unlock your full potential with our personalized mentorship program. Our dedicated mentors are committed to your success, offering tailored guidance, advice, and support every step of the way. Whether you're seeking career advice or academic assistance, our mentors are here to help you thrive."
+      "text": "Unlock your potential with our personalized mentorship program. Our dedicated mentors offer tailored guidance and support every step of the way, helping you thrive in both career and academia."
     },
-
     {
       "icon": "fa fa-magic",
-      "title": "Students Improvement",
-      "text": "Our comprehensive approach to education is centered around your growth and development as a student. Through innovative teaching methods, interactive learning experiences, and continuous feedback, we empower you to reach new heights of achievement and realize your academic goals."
+      "title": "Student Improvement",
+      "text": "Our comprehensive education approach focuses on your growth and development. Through innovative teaching methods and continuous feedback, we empower you to achieve academic success and realize your goals."
     }
   ]
 }
