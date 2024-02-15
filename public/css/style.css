@@ -84,13 +84,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #000000;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #000000;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -221,7 +221,7 @@ a:focus,
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
-  font-size: 82px;
+  font-size: 62px;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 0;
@@ -232,7 +232,7 @@ a:focus,
   color: #279EFF;
 }
 .intro p {
-  color: #fff;
+  color: #303030;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -309,49 +309,53 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
-/* Services Section */
-#services {
+
+/* Courses Section */
+#Courses {
   padding: 100px 0;
   background: linear-gradient(to right, #0C356A 0%, #279EFF 100%);
   color: #fff;
+  text-align: center;
 }
-#services .service-desc {
-  margin: 10px 10px 20px;
+#Courses .service-desc {
+  margin: 40px auto; /* Increased margin */
+  max-width: 600px; /* Set maximum width */
 }
-#services h2 {
+#Courses h2 {
   color: #fff;
 }
-#services .section-title h2::after {
-  position: absolute;
+/* #Courses .section-title h2::after {
   content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
+  display: block;
   width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #0C356A 0%, #279EFF 100%);
+  height: 4px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 20px auto; 
+} */
+#Courses i.fa {
+  font-size: 48px; /* Slightly increased icon size */
+  width: 120px; /* Adjusted width */
+  height: 120px; /* Adjusted height */
+  line-height: 120px; /* Center icon vertically */
+  background: #fff; /* White background */
   border-radius: 50%;
+  color: #279EFF; /* Adjusted icon color */
+  margin-bottom: 20px; /* Adjusted margin */
+  display: inline-block; /* Added to center align */
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Improved shadow */
+  transition: transform 0.3s ease;
+}
+#Courses h3 {
+  font-weight: 600; /* Increased font weight */
+  padding: 10px 0;
   color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
-#services h3 {
-  font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
+#Courses p {
+  color: #ffffff; /* Adjusted text color */
+  margin-bottom: 20px; 
 }
-#services p {
-  color: rgba(255, 255, 255, 0.75);
-}
-#services .service-desc {
-  margin-bottom: 40px;
-}
+
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -365,6 +369,7 @@ header .intro-text {
   position: relative;
   margin: 0;
 }
+
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -490,7 +495,7 @@ header .intro-text {
 #contact h3 {
   color: #fff;
   margin-top: 80px;
-  margin-bottom: 25px;
+  
   padding-bottom: 20px;
   font-weight: 400;
 }
@@ -502,7 +507,7 @@ header .intro-text {
   text-align: left;
 }
 #contact .btn-custom {
-  margin: 30px 0;
+  
   background: transparent;
   border: 2px solid #fff;
 }
