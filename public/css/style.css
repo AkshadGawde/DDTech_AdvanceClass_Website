@@ -152,7 +152,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #279EFF 0%, #0C356A 100%);
+  background-color: white;;
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -232,9 +232,9 @@ a:focus,
   color: #279EFF;
 }
 .intro p {
-  color: #303030;
-  font-size: 22px;
-  font-weight: 300;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
   line-height: 30px;
   margin: 0 auto;
   margin-bottom: 60px;
@@ -347,7 +347,7 @@ header .intro-text {
 }
 #Courses h3 {
   font-weight: 600; /* Increased font weight */
-  padding: 10px 0;
+  padding: 0px 0;
   color: #fff;
 }
 #Courses p {
