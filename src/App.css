@@ -1,6 +1,6 @@
 @media screen and (max-width: 500px) {
   #features {
-    width: 136%;
+    width:111%;
   }
   #about,
   #services,
@@ -8,10 +8,10 @@
   #team,
   #contact,
   #footer {
-    width: 136%;
+    width: 111%;
   }
 
   #portfolio {
-    width: 136%;
+    width: 111%;
   }
 }
