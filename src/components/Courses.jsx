@@ -15,9 +15,11 @@ export const Courses = (props) => {
                   <i className="fa fa-fonticons">{d.icon}</i>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
-                    <ul>
+                    <ul className="bul">
                       {d.text.split(",").map((subject, index) => (
-                        <li key={index}>{subject.trim()}</li>
+                        <li key={index}>
+                          <span className="bullet-point">&#8226;</span> {subject.trim()}
+                        </li>
                       ))}
                     </ul>
                   </div>

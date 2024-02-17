@@ -310,6 +310,7 @@ header .intro-text {
   margin: 30px 0;
 }
 
+
 /* Courses Section */
 #Courses {
   padding: 100px 0;
@@ -319,7 +320,8 @@ header .intro-text {
 }
 #Courses .service-desc {
   margin: 40px auto; /* Increased margin */
-  max-width: 600px; /* Set maximum width */
+  max-width: 600px;
+   /* Set maximum width */
 }
 #Courses h2 {
   color: #fff;
@@ -333,19 +335,20 @@ header .intro-text {
   margin: 20px auto; 
 } */
 #Courses i.fa {
-  font-size: 48px; /* Slightly increased icon size */
+  font-size: 50px; /* Slightly increased icon size */
   width: 120px; /* Adjusted width */
   height: 120px; /* Adjusted height */
   line-height: 120px; /* Center icon vertically */
   background: #fff; /* White background */
   border-radius: 50%;
   color: #279EFF; /* Adjusted icon color */
-  margin-bottom: 20px; /* Adjusted margin */
+  margin-bottom: 0px; /* Adjusted margin */
   display: inline-block; /* Added to center align */
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1); /* Improved shadow */
   transition: transform 0.3s ease;
 }
 #Courses h3 {
+  font-size: 22;
   font-weight: 600; /* Increased font weight */
   padding: 0px 0;
   color: #fff;
@@ -354,8 +357,22 @@ header .intro-text {
   color: #ffffff; /* Adjusted text color */
   margin-bottom: 20px; 
 }
+#Courses li {
+  padding-left: 32%;
+  max-width: 80%;
+}
+.bul {
+  list-style: none;
+  padding-left: 0;
+}
 
+.bul li {
+  text-align: left;
+}
 
+.bullet-point {
+  margin-right: 5px; /* Adjust as needed */
+}
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
