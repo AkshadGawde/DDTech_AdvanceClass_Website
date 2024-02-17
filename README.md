@@ -12,13 +12,15 @@ Clone the repository and run the following commands in the CLI:
 ```bash
 yarn
 yarn start
-
+```
+```bash
 npm i
 npm start
-
+```
+```bash
 pnpm i
 pnpm start
-
+```
 ## Credits
 - Website Developed by [DDTech](https://www.thedd.tech/)
 - Sponsored by: AdvanceClass
