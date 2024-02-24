@@ -60,12 +60,13 @@ emailjs
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
               <h3>Contact Info</h3>
-              
-                <span>
-                  <i className="fa fa-map-marker"></i> Address
-                </span>{" "}
-              <a href="https://g.co/kgs/Ya49vZC"> <span> {props.data ? props.data.address : "loading"}</span></a>
-              
+              <span>
+                <i className="fa fa-map-marker"></i> Address
+              </span>{" "}
+              <a href="https://g.co/kgs/Ya49vZC">
+                {" "}
+                <span> {props.data ? props.data.address : "loading"}</span>
+              </a>
             </div>
             <div className="contact-item">
               <p>
@@ -76,10 +77,10 @@ emailjs
               </p>
             </div>
             <div className="contact-item">
-            
-                <span>
-                  <i className="fa fa-envelope-o"></i> Email
-                </span>{" "}  <a  href="mailto:siddharthshivarkar@gmail.com">
+              <span>
+                <i className="fa fa-envelope-o"></i> Email
+              </span>{" "}
+              <a href="mailto:advanceclasses01@gmail.com">
                 <span>{props.data ? props.data.email : "loading"}</span>
               </a>
             </div>
