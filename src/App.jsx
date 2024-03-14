@@ -6,6 +6,7 @@ import { About } from "./components/about";
 import { Courses } from "./components/Courses";
 // import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
+import {Form} from "./components/Form.tsx"
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
@@ -34,6 +35,7 @@ const App = () => {
       {/* <Gallery data={landingPageData.Gallery} /> */}
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
+      <Form/>
       <Contact data={landingPageData.Contact} />
     </div>
   );
