@@ -536,7 +536,7 @@ header .intro-text {
   font-size: 12px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  float: left;
+  /* float: left; */
   }
   .form-group{
   border-radius: 4px;
@@ -658,10 +658,6 @@ textarea {
   border-radius: 5px;
 }
 
-.checkboxLabel {
-  display: block;
-  margin-bottom: 10px;
-}
 
 button[type="submit"] {
   display: block;
@@ -679,10 +675,10 @@ button[type="submit"]:hover {
 }
 
 .checkboxLabel {
-  display: block;
-  margin-bottom: 10px; /* Add margin-bottom to create space between checkbox and label */
+  margin-bottom: 10px; 
+  margin-right: 5px;
 }
 
 .checkboxLabel input[type="checkbox"] {
-  margin-right: 5px; /* Add margin-right to create space between checkbox and label text */
+  margin-right: 5px; 
 }

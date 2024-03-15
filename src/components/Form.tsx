@@ -91,25 +91,28 @@ export const Form = () => {
           placeholder='example@example.com'
         />
 
-<div>
-  <h6>Subjects</h6>
-  {subjects.map((option, index) => (
-    <label className="checkboxLabel" key={index} style={{ padding: '5px' }}>
-      <input className='' type="checkbox" {...register(`checkboxOptions.${index}`)} value={option} />
-      {option}
-    </label>
-  ))}
-</div>
+    <div>
+      <h6>Subjects</h6>
+          {subjects.map((option, index) => (
+            <label className="checkboxLabel" key={index}>
+              <input className=''
+                type="checkbox"
+                {...register(`checkboxOptions.${index}`)}
+                value={option}
+              />
+              {option}
+            </label>
+          ))}
+    </div>
 
-<div>
+      <div>
   <h6>Phone number</h6>
   <input
     {...register("phone", { required: true })}
     type='text'
-    placeholder='+91 123456789'
+    placeholder='+91 xxxxxxxxxx'
   />
 </div>
-
 
         <h6>Further queries</h6>
         <textarea id="textArea" {...register("queries")} />
