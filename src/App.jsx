@@ -6,7 +6,7 @@ import { About } from "./components/about";
 import { Courses } from "./components/Courses";
 // import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
-import {Form} from "./components/Form.tsx"
+import {Form} from "./components/Form"
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";

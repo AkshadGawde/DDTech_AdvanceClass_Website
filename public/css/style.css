@@ -533,10 +533,12 @@ header .intro-text {
   background: #fff;
   }
   label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  font-family: "Raleway", sans-serif;
   /* float: left; */
+  display: block;
   }
   .form-group{
   border-radius: 4px;
@@ -634,27 +636,34 @@ header .intro-text {
 }
 
 .formContainer {
-  max-width: 1350px;
+  max-width: 1000px;
+  max-height: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 100px;
   border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 30px;
-  outline : 2px solid #007bff;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  background: linear-gradient(to right, #0C356A 0%, #279EFF 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h6 {
   margin-top: 10px;
+  color: white;
 }
 
 input[type="text"],
+input[type="email"],
 select,
 textarea {
-  width: 100%;
-  padding: 10px;
+  width: 500px;
+  padding: 12px;
   margin-top: 5px;
   margin-bottom: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #ffffff;
   border-radius: 5px;
 }
 
@@ -663,10 +672,10 @@ button[type="submit"] {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 20px;
   cursor: pointer;
 }
 
@@ -681,4 +690,15 @@ button[type="submit"]:hover {
 
 .checkboxLabel input[type="checkbox"] {
   margin-right: 5px; 
+}
+
+.inputHeader{
+  color: white;
+  font-size: 5rem;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+textarea {
+  resize: vertical;
 }
