@@ -6,6 +6,7 @@ import { About } from "./components/about";
 import { Courses } from "./components/Courses";
 // import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
+import {Toaster} from "react-hot-toast";
 import {Form} from "./components/Form"
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
@@ -27,6 +28,7 @@ const App = () => {
 
   return (
     <div>
+      <Toaster/>
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
