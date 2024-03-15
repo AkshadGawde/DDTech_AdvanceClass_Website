@@ -46,7 +46,7 @@ export const Form = () => {
   };
 
   return (
-    <div className='container '>
+    <div className='formContainer'>
       <form onSubmit={handleSubmit(onSubmit)}>
         <h6>Name</h6>
         <input
@@ -84,19 +84,6 @@ export const Form = () => {
           <option value="Mechanical">MECH</option>
         </select>
 
-          <h6>Subjects</h6>
-          {subjects.map((option, index) => (
-            <label className="checkboxLabel" key={index}>
-              <input className='checkboxInput'
-                type="checkbox"
-                {...register(`checkboxOptions.${index}`)}
-                value={option}
-              />
-              {option}
-            </label>
-          ))}
-
-        <br /><br /><br /><br /><br />
         <h6>E-mail</h6>
         <input
           {...register("email", { required: true })}
@@ -104,12 +91,25 @@ export const Form = () => {
           placeholder='example@example.com'
         />
 
-        <h6>Phone number</h6>
-        <input
-          {...register("phone", { required: true })}
-          type='text'
-          placeholder='+91 123456789'
-        />
+<div>
+  <h6>Subjects</h6>
+  {subjects.map((option, index) => (
+    <label className="checkboxLabel" key={index}>
+      <input className='' type="checkbox" {...register(`checkboxOptions.${index}`)} value={option} />
+      {option}
+    </label>
+  ))}
+</div>
+
+<div>
+  <h6>Phone number</h6>
+  <input
+    {...register("phone", { required: true })}
+    type='text'
+    placeholder='+91 123456789'
+  />
+</div>
+
 
         <h6>Further queries</h6>
         <textarea id="textArea" {...register("queries")} />

@@ -633,7 +633,56 @@ header .intro-text {
   }
 }
 
+.formContainer {
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  outline : 2px solid #007bff;
+}
 
-.checkboxInput{
-  margin : 2px;
+h6 {
+  margin-top: 10px;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.checkboxLabel {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.checkboxLabel {
+  display: block;
+  margin-bottom: 10px; /* Add margin-bottom to create space between checkbox and label */
+}
+
+.checkboxLabel input[type="checkbox"] {
+  margin-right: 5px; /* Add margin-right to create space between checkbox and label text */
 }
