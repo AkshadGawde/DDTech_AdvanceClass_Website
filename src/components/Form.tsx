@@ -94,7 +94,7 @@ export const Form = () => {
 <div>
   <h6>Subjects</h6>
   {subjects.map((option, index) => (
-    <label className="checkboxLabel" key={index}>
+    <label className="checkboxLabel" key={index} style={{ padding: '5px' }}>
       <input className='' type="checkbox" {...register(`checkboxOptions.${index}`)} value={option} />
       {option}
     </label>
