@@ -632,3 +632,8 @@ header .intro-text {
     margin: 50px 0;
   }
 }
+
+
+.checkboxInput{
+  margin : 2px;
+}
