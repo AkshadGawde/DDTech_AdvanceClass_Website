@@ -18,7 +18,7 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <button  
+          <button
             type="button"
             className={"navbar-toggle collapsed" + (collapsed ? "" : " in")} // Add "in" class if not collapsed
             onClick={toggleCollapse}
@@ -39,32 +39,56 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#features"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 Features
               </a>
             </li>
             <li>
-              <a href="#about" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#about"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 About
               </a>
             </li>
             <li>
-              <a href="#Courses" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#Courses"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 Courses
               </a>
             </li>
             <li>
-              <a href="#testimonials" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#testimonials"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 Testimonials
               </a>
             </li>
             <li>
-              <a href="#team" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#team"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 Team
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll" onClick={handleMenuItemClick}>
+              <a
+                href="#form"
+                className="page-scroll"
+                onClick={handleMenuItemClick}
+              >
                 Contact
               </a>
             </li>

@@ -13,10 +13,7 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="https://wa.me/917208549842"
-                  className="btn btn-custom btn-lg"
-                >
+                <a href="#form" className="btn btn-custom btn-lg">
                   Ask your Query !
                 </a>
               </div>

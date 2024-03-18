@@ -1,5 +1,5 @@
-import React from 'react';
-import { useForm } from 'react-hook-form';
+import React from "react";
+import { useForm } from "react-hook-form";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
 
@@ -23,7 +23,7 @@ const subjects = [
   "Very large scale integrated circuit (VLSI)",
   "image processing (IP)",
   "Robotics",
-  "CMOS technology"
+  "CMOS technology",
 ];
 
 export const Form = () => {
@@ -31,40 +31,53 @@ export const Form = () => {
 
   const onSubmit = (data) => {
     console.log(data);
-    emailjs.sendForm('service_wmfmrr3', 'template_kjm4jee', '#myForm', 'Zwp5jEW_hQoFqK_Kl').then(
-      (response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        toast.success("Form has been submitted")
-      },
-      (error) => {
-        console.log('FAILED...', error);
-        toast.error("Form could not be submitted , Please try again")
-      },
-    );
+    emailjs
+      .sendForm(
+        "service_wmfmrr3",
+        "template_kjm4jee",
+        "#myForm",
+        "Zwp5jEW_hQoFqK_Kl"
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          toast.success("Form has been submitted");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          toast.error("Form could not be submitted , Please try again");
+        }
+      );
   };
 
   return (
-    <div className='formContainer'>
-      <span className='inputHeader'>Contact Us!</span>
-      <form onSubmit={handleSubmit(onSubmit)} id='myForm'>
+    <div id="form" className="formContainer">
+      <span className="inputHeader">Contact Us!</span>
+      <form onSubmit={handleSubmit(onSubmit)} id="myForm">
         <label>Name</label>
         <input
-          {...register("from_name", { required: true , maxLength: 30})}
-          type='text'
-          placeholder='Full Name'
+          {...register("from_name", { required: true, maxLength: 30 })}
+          type="text"
+          placeholder="Full Name"
         />
 
         <label>E-mail</label>
         <input
-          {...register("user_email", { required: true , pattern:/[a-z A-Z 0-9]@[a-z A-Z 0-9].[a-z]{2,}/ })}
-          type='email'
-          placeholder='example@example.com'
+          {...register("user_email", {
+            required: true,
+            pattern: /[a-z A-Z 0-9]@[a-z A-Z 0-9].[a-z]{2,}/,
+          })}
+          type="email"
+          placeholder="example@example.com"
         />
 
         <label>Further queries</label>
-        <textarea {...register("message")} placeholder='Enter your message here'></textarea>
+        <textarea
+          {...register("message")}
+          placeholder="Enter your message here"
+        ></textarea>
 
-        <button type='submit'>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
