@@ -493,9 +493,11 @@ header .intro-text {
   }
   #contact .section-title {
   margin-bottom: 10px;
+  text-align: left;
   }
   #contact .section-title p {
   font-size: 16px;
+  
   }
   #contact h2 {
   color: #fff;
@@ -531,10 +533,14 @@ header .intro-text {
   background: transparent;
   border: 2px solid #fff;
   }
+  .btn-container {
+    text-align: left;
+  }
   #contact .btn-custom:hover {
   color: #1f386e;
   background: #fff;
   }
+
   label {
   font-size: 20px;
   font-weight: 800;
@@ -581,40 +587,52 @@ header .intro-text {
   .form-control:-ms-input-placeholder {
   color: #777;
   }
+  /* Contact Info */
   #contact .contact-item {
-  margin: 20px 0;
+    margin: 20px 0;
   }
+  
   #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
-  display: block;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+    display: block;
   }
+  
   #contact .contact-item i.fa {
-  margin-right: 10px;
+    margin-right: 10px;
   }
+  
+  #contact .contact-item span.address {
+    /* Apply alignment rule to address span */
+    text-align: left;
+  }
+  
   #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
-  text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
   }
+  
   #contact .social ul li {
-  display: inline-block;
-  margin: 0 20px;
+    display: inline-block;
+    margin: 0 20px;
   }
+  
   #contact .social i.fa {
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
-  padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
-  border-radius: 50%;
-  transition: all 0.3s;
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
   }
+  
   #contact .social i.fa:hover {
-  color: #279EFF;
-  background: #fff;
+    color: #279EFF;
+    background: #fff;
   }
 
 /* MAPS */
