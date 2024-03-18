@@ -71,6 +71,15 @@ export const Form = () => {
           placeholder="example@example.com"
         />
 
+        <label>
+          Contact Number <span style={{ color: "red" }}>*</span>
+        </label>
+        <input
+          {...register("contact_number", { required: true })}
+          type="text"
+          placeholder="Enter your contact number"
+        />
+
         <label>Further queries</label>
         <textarea
           {...register("message")}
