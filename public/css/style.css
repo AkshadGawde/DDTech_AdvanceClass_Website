@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif; 
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -289,12 +289,13 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  font-size: 15px;
 }
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #279EFF;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -308,6 +309,8 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  font-size: 15px;
+  
 }
 
 
@@ -490,9 +493,11 @@ header .intro-text {
   }
   #contact .section-title {
   margin-bottom: 10px;
+  text-align: left;
   }
   #contact .section-title p {
   font-size: 16px;
+  
   }
   #contact h2 {
   color: #fff;
@@ -528,15 +533,21 @@ header .intro-text {
   background: transparent;
   border: 2px solid #fff;
   }
+  .btn-container {
+    text-align: left;
+  }
   #contact .btn-custom:hover {
   color: #1f386e;
   background: #fff;
   }
+
   label {
-  font-size: 12px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  float: left;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  /* float: left; */
+  display: block;
   }
   .form-group{
   border-radius: 4px;
@@ -576,41 +587,93 @@ header .intro-text {
   .form-control:-ms-input-placeholder {
   color: #777;
   }
+  /* Contact Info */
   #contact .contact-item {
-  margin: 20px 0;
+    margin: 20px 0;
   }
+  
   #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
-  margin-bottom: 10px;
-  display: block;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 10px;
+    display: block;
   }
+  
   #contact .contact-item i.fa {
-  margin-right: 10px;
+    margin-right: 10px;
   }
+  
+  #contact .contact-item span.address {
+    /* Apply alignment rule to address span */
+    text-align: left;
+  }
+  
   #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
-  text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
   }
+  
   #contact .social ul li {
-  display: inline-block;
-  margin: 0 20px;
+    display: inline-block;
+    margin: 0 20px;
   }
+  
   #contact .social i.fa {
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
-  padding: 12px 0;
-  border: 2px solid #fff;
-  color: #fff;
-  border-radius: 50%;
-  transition: all 0.3s;
+    font-size: 22px;
+    width: 48px;
+    height: 48px;
+    padding: 12px 0;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
   }
+  
   #contact .social i.fa:hover {
-  color: #279EFF;
-  background: #fff;
+    color: #279EFF;
+    background: #fff;
   }
+
+/* MAPS */
+
+.mapcontainer {
+  margin-left: auto;
+  padding-bottom: 50px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2px; /* Adjust margin */
+}
+
+.service-name {
+  font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh; 
+  margin-top: 2px; 
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.map-iframe {
+  width: 100%; /* Adjusted width */
+  max-width: 1200px; /* Maximum width */
+  height: 70vh; /* Adjusted height */
+  border: none;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
@@ -631,4 +694,72 @@ header .intro-text {
   #about img {
     margin: 50px 0;
   }
+}
+
+.formContainer {
+  max-width: 1000px;
+  max-height: 800px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  background: linear-gradient(to right, #0C356A 0%, #279EFF 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h6 {
+  margin-top: 10px;
+  color: white;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 500px;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.checkboxLabel {
+  margin-bottom: 10px; 
+  margin-right: 5px;
+}
+
+.checkboxLabel input[type="checkbox"] {
+  margin-right: 5px; 
+}
+
+.inputHeader{
+  color: white;
+  font-size: 5rem;
+  font-family: "Raleway", sans-serif; 
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+textarea {
+  resize: vertical;
 }

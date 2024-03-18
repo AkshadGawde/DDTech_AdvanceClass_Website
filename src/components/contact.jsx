@@ -47,14 +47,14 @@ emailjs
                 <h2>Get In Touch</h2>
                 <p>Press the button to open a whatsapp chat with us.</p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <div className="btn-container">
                 <a
                   href="https://wa.me/917208549842"
                   className="btn btn-custom btn-lg"
                 >
                   Contact us!
                 </a>
-              </form>
+              </div>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
