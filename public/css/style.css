@@ -637,8 +637,9 @@ header .intro-text {
 
 /* MAPS */
 
-.container {
+.mapcontainer {
   margin-left: auto;
+  padding-bottom: 50px;
   margin-right: auto;
   text-align: center;
 }

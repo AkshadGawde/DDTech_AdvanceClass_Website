@@ -2,8 +2,8 @@ import React from "react";
 
 const Maps = () => {
   return (
-    <section className="container" id="Maps" data-aos="fade-up">
-      <h2 className="title text-center">Where are we at?</h2>
+    <section className="mapcontainer" id="Maps" data-aos="fade-up">
+      <h2 className="title ">Where are we at?</h2>
       <span className="service-name text-center">FIND US</span>
       <div className="map-container">
         <iframe
