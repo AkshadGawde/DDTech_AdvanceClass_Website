@@ -27,7 +27,7 @@ const subjects = [
 ];
 
 export const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit , reset } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
@@ -48,6 +48,7 @@ export const Form = () => {
           toast.error("Form could not be submitted , Please try again");
         }
       );
+      reset();
   };
 
   return (
