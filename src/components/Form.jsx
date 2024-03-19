@@ -64,7 +64,7 @@ export const Form = () => {
         <label>E-mail</label>
         <input
           {...register("user_email", {
-            required: false,
+            required: true,
             pattern: /[a-z A-Z 0-9]@[a-z A-Z 0-9].[a-z]{2,}/,
           })}
           type="email"
