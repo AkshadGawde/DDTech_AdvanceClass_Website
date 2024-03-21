@@ -27,16 +27,16 @@ const subjects = [
 ];
 
 export const Form = () => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit , reset } = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
     emailjs
       .sendForm(
-        "service_wmfmrr3",
-        "template_kjm4jee",
+        "service_b9kcp18",
+        "template_zt441ac",
         "#myForm",
-        "Zwp5jEW_hQoFqK_Kl"
+        "yDUofkTF6aoIqQiG_"
       )
       .then(
         (response) => {
@@ -48,6 +48,7 @@ export const Form = () => {
           toast.error("Form could not be submitted , Please try again");
         }
       );
+      reset();
   };
 
   return (
@@ -64,7 +65,7 @@ export const Form = () => {
         <label>E-mail</label>
         <input
           {...register("user_email", {
-            required: false,
+            required: true,
             pattern: /[a-z A-Z 0-9]@[a-z A-Z 0-9].[a-z]{2,}/,
           })}
           type="email"
