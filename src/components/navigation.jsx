@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export const Navigation = (props) => {
   // State to control menu collapse
@@ -18,6 +20,12 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
+          {/* WhatsApp icon */}
+          <div className="whatsapp-icon">
+        <a href="https://wa.me/+917208549842" target="_blank" rel="noopener noreferrer">
+          <FontAwesomeIcon icon={faWhatsapp} />
+        </a>
+      </div>
           <button
             type="button"
             className={"navbar-toggle collapsed" + (collapsed ? "" : " in")} // Add "in" class if not collapsed

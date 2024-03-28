@@ -763,3 +763,34 @@ button[type="submit"]:hover {
 textarea {
   resize: vertical;
 }
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  z-index: 1000; /* Ensure it appears on top of other content */
+}
+.whatsapp-icon a {
+  display: inline-block;
+  padding: 10px;
+  background-color: green; /* Example background color */
+  color: white; /* Example text color */
+  border-radius: 80%;
+  font-size: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow */
+  animation: breathe 1s infinite alternate; /* Breathing animation */
+}
+
+.whatsapp-icon a:hover {
+  background-color: darkgreen; /* Example hover background color */
+  animation: none; /* Disable animation on hover */
+}
+
+@keyframes breathe {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
