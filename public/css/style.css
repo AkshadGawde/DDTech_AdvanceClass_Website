@@ -771,10 +771,10 @@ textarea {
 }
 .whatsapp-icon a {
   display: inline-block;
-  padding: 10px;
+  padding: 10%;
   background-color: green; /* Example background color */
   color: white; /* Example text color */
-  border-radius: 80%;
+  border-radius: 100%;
   font-size: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow */
   animation: breathe 1s infinite alternate; /* Breathing animation */

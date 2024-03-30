@@ -52,6 +52,8 @@ emailjs
                   href="https://wa.me/917208549842"
                   className="btn btn-custom btn-lg"
                 >
+                <FontAwesomeIcon icon={faWhatsapp} />
+              
                   Contact us!
                 </a>
               </div>
