@@ -1,7 +1,8 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 const initialState = {
   name: "",
   email: "",
