@@ -531,6 +531,8 @@ header .intro-text {
   #contact .btn-custom {
   margin: 0 0;
   background: transparent;
+  font-size: 18px;
+  padding: 14px 30px;
   border: 2px solid #fff;
   }
   .btn-container {
@@ -765,19 +767,20 @@ textarea {
 }
 .whatsapp-icon {
   position: fixed;
-  bottom: 20px; /* Adjust as needed */
-  right: 20px; /* Adjust as needed */
+  bottom: 5%; /* Adjust as needed */
+  right: 2%; /* Adjust as needed */
   z-index: 1000; /* Ensure it appears on top of other content */
 }
 .whatsapp-icon a {
   display: inline-block;
-  padding: 10%;
+  padding: 2vmin;
+
   background-color: green; /* Example background color */
   color: white; /* Example text color */
-  border-radius: 100%;
-  font-size: 20px;
+  border-radius: 50%;
+  font-size: 4vmin;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow */
-  animation: breathe 1s infinite alternate; /* Breathing animation */
+  animation: breathe 0.7s infinite alternate; /* Breathing animation */
 }
 
 .whatsapp-icon a:hover {
