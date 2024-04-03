@@ -427,6 +427,15 @@ header .intro-text {
   opacity: 1;
 }
 /* Testimonials Section */
+#testimonials h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #279EFF 0%, #0C356A 100%);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+
+}
 #testimonials {
   padding: 100px 0;
   background: #f6f6f6;
@@ -447,8 +456,8 @@ header .intro-text {
 .testimonial-image,
 .testimonial-image img {
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 .testimonial-content {
@@ -767,20 +776,24 @@ textarea {
 }
 .whatsapp-icon {
   position: fixed;
-  bottom: 5%; /* Adjust as needed */
-  right: 2%; /* Adjust as needed */
-  z-index: 1000; /* Ensure it appears on top of other content */
+  bottom: 5%;
+  right: 2%;
+  z-index: 1000;
 }
-.whatsapp-icon a {
-  display: inline-block;
-  padding: 2vmin;
 
-  background-color: green; /* Example background color */
-  color: white; /* Example text color */
+.whatsapp-icon a {
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 4vmin;
+  height: 4vmin;
+  padding: 4vmin; /* Padding around the icon */
+  background-color: rgba(0, 128, 0, 0.8);
+  color: white;
   border-radius: 50%;
   font-size: 4vmin;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Example box shadow */
-  animation: breathe 0.7s infinite alternate; /* Breathing animation */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  animation: breathe 0.7s infinite alternate;
 }
 
 .whatsapp-icon a:hover {
@@ -797,3 +810,30 @@ textarea {
   }
 }
 
+.show-more-button {
+  background-color: #f8f9fa;
+  color: #1a73e8;
+  border: 1px solid #dadce0;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.show-more-button:hover {
+  background-color: #e2e7ff;
+}
+
+.read-more-button,
+.read-less-button {
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.read-more-button:hover,
+.read-less-button:hover {
+  text-decoration: underline;
+}
