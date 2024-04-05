@@ -93,36 +93,54 @@
   ],
 
   "Testimonials": [
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "I highly recommend taking engineering classes with Siddharth sir. He provides excellent coaching and takes great care of his students. His knowledge and expertise in the field contribute to a positive and enriching learning experience.",
-      "name": "Vaibhav Tyagi"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "Its been 8 years since I have learnt from Siddharth Sir, he is still in touch and guiding me through every academic and career aspect of life as a mentor.He is really good in important subjects like Maths, Mechanics, Engineering Drawing and BEEE.",
-      "name": "Ajay Wavhal"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "The is best class I haved joined ever because the teaching style of siddarth sir is way better and different from other teachers and the way he handles students is best treats every student as friend. They cleared my golden kt in one attempt only of 1st year",
-      "name": "Sui Leo"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "Joined this class to improve my grades in Engineering, not only I got better result but cleared my doubts and enjoyed learning here.\nSiddharth. Sir is one of the amazing teacher I met in my life. Highly suggested for first year engineeing.",
-      "name": "Swati Mohite"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "The best engineering classes in Navi Mumbai. Trust me teachers for here will make all engineering semesters super easy. No chance of getting any KT. Without thinking twice join the classes.",
-      "name": "Simran Madaan"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "Faculty is very co-operative and amazing. Teaching style of Siddharth Sir is unique. Kudos to all!",
-      "name": "Pranay Borhade"
-    }
+    
+      {
+        "name": "Sagar Thorat",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocL6RJ15E5N5oTbklbYX5pv-Izn19mBaoRJmO8ST51MonKstw84=s40-c-rp-mo-ba3-br100",
+        "snippet": "I'm delighted to share my positive experience for this engineering coaching classes. Siddharth Sir is very knowledgeable, patient, and creates a supportive learning environment. The lessons are well-structured, making complex concepts easy to grasp. I highly recommend this coaching center for anyone seeking quality engineering education. Not only is he a great instructor but also a great advisor helping students shape their careers in a positive direction."
+      },
+      {
+        "name": "Vaibhav Tyagi",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocJybvHMmyQ7H67P7ds5PAXbT4DjB6MLsfn_FGVa_jNPWWg1Qg=s40-c-rp-mo-br100",
+        "snippet": "I highly recommend taking engineering classes with Siddharth sir. He provides excellent coaching and takes great care of his students. His knowledge and expertise in the field contribute to a positive and enriching learning experience."
+      },
+      {
+        "name": "Ajay Wavhal",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWr0thpSA-joVadKI6fps5HunAjG5W4m_Fy4NmEaxBBKecFF2tccw=s40-c-rp-mo-ba2-br100",
+        "snippet": "It's been 8 years since I have learned from Siddharth Sir, he is still in touch and guiding me through every academic and career aspect of life as a mentor. He is really good in important subjects like Maths, Mechanics, Engineering Drawing, and BEEE. Thank you Siddharth Sir✌️"
+      },
+      {
+        "name": "Sami Ahmed",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWehe9Qe0DzM30MC6-Aw9Og5rqRPIIYrXMBfNqDPnvX7Ubgzw2Z6g=s40-c-rp-mo-br100",
+        "snippet": "Siddharth sir is a life saver for Engineering students. His teaching methods encourage students to get out of the comfort zone and stay active in the competition."
+      },
+      {
+        "name": "# rushi7_14",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjVR9TuLgKl-j7U9_PYMzvcrg7qSS1R6rzTk9wMdYzH1GCtOd1Cw=s40-c-rp-mo-br100",
+        "snippet": "Siddharth sir is the best! He cleared all my golden KT's and remaining SE KT's. The overall environment in class is also good if you want to score must join advance classes !! Best"
+      },
+      {
+        "name": "Atharva Kotkar",
+        "thumbnail": "https://lh3.googleusercontent.com/a-/ALV-UjWgZgcUjAkU-P0mNLnRbNZ_k5uYvINtI5lpP7aJW1QKTxTz1yt0=s40-c-rp-mo-br100",
+        "snippet": "Highly recommended for engineering students. Siddharth sir is an electronic god. Once he teaches you are Pro in it."
+      },
+      {
+        "name": "Shubham Dalvi",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK8vtKDOJZtEnTRWyq3cltRtNzym3LbESeLoHBYCzpnSOiL_Q=s40-c-rp-mo-br100",
+        "snippet": "I’ve personally known prof Siddharth and he’s a wonderful tutor. I highly recommend his coaching."
+      },
+      {
+        "name": "SWATI MOHITE",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocKQ8-Qs_t6Gie2-gSG9MdsMYK_ngw07hiUzZFDMPHpey4lYHg=s40-c-rp-mo-br100",
+        "snippet": "Joined this class to improve my grades in Engineering, not only I got a better result but cleared my doubts and enjoyed learning here. Siddharth Sir is one of the amazing teachers I met in my life. Highly suggested for first-year engineering."
+      },
+      {
+        "name": "Simran Madaan",
+        "thumbnail": "https://lh3.googleusercontent.com/a/ACg8ocK8vtKDOJZtEnTRWyq3cltRtNzym3LbESeLoHBYCzpnSOiL_Q=s40-c-rp-mo-br100",
+        "snippet": "The best engineering classes in Navi Mumbai. Trust me teachers for here will make all engineering semesters super easy. No chance of getting any KT. Without thinking twice join the classes."
+      }
+    
+    
   ],
 
   "Team": [
