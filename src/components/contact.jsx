@@ -1,6 +1,7 @@
 import { useState } from "react";
-import emailjs from "emailjs-com";
+
 import React from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const initialState = {
   name: "",
@@ -52,8 +53,10 @@ emailjs
                   href="https://wa.me/917208549842"
                   className="btn btn-custom btn-lg"
                 >
-                  Contact us!
-                </a>
+               <IoLogoWhatsapp /> contact us !    
+             
+                  </a>
+               
               </div>
             </div>
           </div>

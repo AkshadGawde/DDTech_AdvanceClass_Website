@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 export const Navigation = (props) => {
   // State to control menu collapse
@@ -18,6 +19,11 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
+          <div className="whatsapp-icon">
+            <a href="https://wa.me/+917208549842" target="_blank" rel="noopener noreferrer">
+              <IoLogoWhatsapp />
+            </a>
+          </div>
           <button
             type="button"
             className={"navbar-toggle collapsed" + (collapsed ? "" : " in")} // Add "in" class if not collapsed
